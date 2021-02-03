@@ -16,8 +16,6 @@ def sida2():
     return render_template('sida2.html')
 
 
-
-
 #if __name__ == "__main__":
 #    app.run(debug=True)
 
