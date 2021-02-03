@@ -1,0 +1,172 @@
+h1{
+    color:#4a4a4a;
+}
+
+body{
+    background:#c3d9e3;
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size:12px;
+    font-weight:bold;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+a:hover{
+    color:gray;
+}
+
+a:active{
+    color:white;
+}
+
+a:visited{
+}
+.container{
+    padding:20px;
+}
+
+.button{
+    background-color:#333;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+}
+
+.button:hover{
+    background-color:gray;
+}
+.box-1{
+    background:#757575;
+    border:5px #cbf542 solid;
+
+    padding:20px;
+}
+
+.box-1 h1{
+    font-family:Tahoma;
+    font-weight:800;
+    font-style:italic;
+}
+
+
+.box-2{
+    border:5px #cbf542 dotted;
+    padding:20px;
+    margin:20px 0px;
+
+}
+
+.categories{
+    border:1px #ccc solid;
+    padding:10px;
+    border-radius:15px;
+
+}
+
+.categories h2{
+    text-align:center;
+}
+
+.categories u1{
+    padding:0;
+    list-style:square;
+}
+
+.categories li{
+    padding-bottom:6px;
+    border-bottom:1px #333 dotted;
+    /*list-style-image: url('../images/check.png');*/
+}
+
+.clr{
+clear:both;
+}
+
+.my-form{
+    padding:20px;
+
+}
+
+.my-form .form-group{
+    padding-bottom:15px;
+}
+
+.my-form label{
+    display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding:8px;
+    width:100%;
+}
+
+.block{
+    float:left;
+    width:33.3%;
+    border:1px solid #ccc;
+    padding:10px;
+    box-sizing:border-box;
+}
+
+
+#main-block{
+    float:left;
+    width:70%;
+    box-sizing:border-box;
+
+}
+
+#side-bar{
+    float:right;
+    width:30%;
+    background-color:#333;
+    color:#fff;
+    padding:15px;
+    box-sizing:border-box;
+}
+
+.p-box{
+    width:800px;
+    height:500px;
+    border:1px solid #000;
+    margin-top:30px;
+    position:relative;
+    background-image:url('../images/unnamed.jpg');
+    background-repeat:no-repeat;
+    background-position:100px 200px;
+    background-position:center center;
+
+}
+
+.p-box h1{
+    position:absolute;
+    top:100px;
+    left:200px;
+
+}
+
+.p-box h2{
+    position:absolute;
+    bottom:40px;
+    right:100px;
+}
+
+
+.my-list li:first-child{
+    background:red;
+
+}
+
+.my-list li:last-child{
+    background:blue;
+
+}
+
+.my-list li:nth-child(5){
+
+    background:green;
+
+}
