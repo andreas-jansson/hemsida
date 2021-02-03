@@ -55,8 +55,8 @@ a:hover{
 }
 
 #boxes{
-   /* border:2px red solid;*/
-    margin-top:15%;
+   /*border:2px red solid;*/
+    margin-top:10%;
     relative:auto;
     min-width:500px;
 
@@ -66,12 +66,12 @@ a:hover{
  /*   border:2px blue solid; */
     float:left;
     width:30%;
-    height:200px;
+    height:350px;
     margin-left:30px;
     background-color:#ff2b5d;
     text-align:center;
     line-height:1.6em;
-    padding: 70px 0;
+
 
 
 }
@@ -80,11 +80,10 @@ a:hover{
    /* border:2px blue solid;*/
     float:left;
     width:30%;
-    height:200px;
+    height:350px;
     margin-left:30px;
     background-color:#292929;
     text-align:center;
-    padding: 70px 0;
     line-height:1.6em;
 
 
@@ -95,14 +94,52 @@ a:hover{
    /* border:2px blue solid;*/
     float:left;
     width:30%;
-    height:200px;
+    height:350px;
     margin-left:30px;
     background-color:#292929;
     text-align:center;
-    padding: 70px 0;
     line-height:1.6em;
 
 }
+
+.container-icon{
+   /* border:2px white dotted;*/
+    height:100px;
+}
+
+.icon-1{
+    float:right;
+    background-image:url('../images/hotdogfinal.png');
+    background-repeat:no-repeat;
+    width:55px;
+    height:55px;
+  /*  border:2px black dotted;*/
+    margin-top:5%;
+
+}
+
+.icon-2{
+    float:right;
+    background-image:url('../images/hotdogfinal.png');
+    background-repeat:no-repeat;
+    width:55px;
+    height:55px;
+  /*  border:2px black dotted;*/
+    margin-top:5%;
+
+}
+
+.icon-3{
+    float:right;
+    background-image:url('../images/hotdogfinal.png');
+    background-repeat:no-repeat;
+    width:55px;
+    height:55px;
+  /*  border:2px black dotted;*/
+    margin-top:5%;
+
+}
+
 
 @media(max-width:600px){
     #boxes{
