@@ -35,9 +35,16 @@ body{
 
 
 #showcase{
-    color:white;
-}
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:35%;
 
+    color:#fff;
+    padding: 70px 0;
+    font-size:30px;
+
+
+}
 a{
    color:white;
    text-decoration:none;
@@ -179,4 +186,18 @@ input[name="r"]{
 #r4:checked ~ .s1{
     margin-left:-60%;
 }
+ /*    slide slut    */
 
+.container-footer{
+    color:#fff;
+    background-color:#292929;
+    height:50px;
+    margin-bottom:10px;
+}
+
+.container-footer p{
+    text-align:right;
+    padding-top:1%;
+    padding-right:2%;
+    font-size:8px;
+}
