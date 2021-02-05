@@ -34,6 +34,9 @@ body{
 
 }
 
+#footer{
+
+}
 
 a{
    color:white;
@@ -205,4 +208,21 @@ a:hover{
         width:100%;
         float:none;
     }
+}
+
+.clear{
+    margin:0;
+    padding:0;
+}
+.container-footer{
+    color:#fff;
+    background-color:#292929;
+    border:2px red solid;
+    height:50px;
+}
+
+.container-footer p{
+    text-align:right;
+    padding-right:2%;
+    font-size:8px;
 }
