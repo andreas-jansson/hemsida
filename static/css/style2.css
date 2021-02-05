@@ -1,93 +1,70 @@
 body{
-    background-color:#f4f4f4;
-    color:#555;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:16px;
-    line-height:1.6em;
-    margin:0;
+  margin: 0;
+  padding: 0;
+  background: #34495e;
+}
+.slidershow{
+  width: 700px;
+  height: 400px;
+  overflow: hidden;
+}
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.navigation{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.bar{
+  width: 50px;
+  height: 10px;
+  border: 2px solid #fff;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.bar:hover{
+  background: #fff;
 }
 
-.container{
-    width:80%;
-    margin:auto;
-    overflow:hidden;
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
 }
 
-#main-header{
-    background-color:coral;
-    color:white;
+.slides{
+  width: 500%;
+  height: 100%;
+  display: flex;
 }
 
-#nav-bar{
-    background-color:#333;
-    color:#fff;
+.slide{
+  width: 20%;
+  transition: 0.6s;
+}
+.slide img{
+  width: 100%;
+  height: 100%;
 }
 
-#nav-bar u1{
-    padding:0;
-    list-style:none;
+#r1:checked ~ .s1{
+  margin-left: 0;
 }
-
-#nav-bar li{
-    display:inline;
+#r2:checked ~ .s1{
+  margin-left: -20%;
 }
-
-#nav-bar a{
-    color:#fff;
-    text-decoration:none;
-    font-size:18px;
-    padding-right:15px;
+#r3:checked ~ .s1{
+  margin-left: -40%;
 }
-
-
-#showcase{
-    background-image:url('../images/unnamed.jpg');
-    background-position:center right;
-    min-height:300px;
-    margin-bottom:30px;
-    text-align:center;
+#r4:checked ~ .s1{
+  margin-left: -60%;
 }
-
-#showcase h1{
-    color:#000;
-    font-size:50px;
-    line-height:1.6em;
-    padding-top:30px;
-}
-
-#main{
-    float:left;
-    width:70%;
-    padding:0 30px;
-    box-sizing:border-box;
-}
-
-#sidebar{
-    float:right;
-    width:30%;
-    padding:0 30px;
-    box-sizing:border-box;
-    background:#333;
-    color:white;
-    padding:10px;
-}
-
-#main-footer{
-    background:#333;
-    color:#fff;
-    text-align:center;
-    padding:20px;
-    margin-top:40px;
-
-}
-
-@media(max-width:600px){
-    #main{
-        width:100%;
-        float:none;
-    }
-    #side-bar{
-        width:100%;
-        float:none;
-    }
+#r5:checked ~ .s1{
+  margin-left: -80%;
 }

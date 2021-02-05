@@ -5,7 +5,6 @@ body{
     line-height:1.6em;
     margin:0;
     background-image:url('../images/background.jpg');
-    /*background-repeat:no-repeat;*/
 }
 
 .container{
@@ -24,15 +23,17 @@ body{
 #main-header u1{
     list-style:none;
     direction: rtl;
+    list-style-image: url('../images/github_small.png');
 
 }
 
 #main-header li{
-        display:inline;
-        margin-right:15px;
-        font-size:20px;
+    display:inline;
+    margin-right:30px;
+    font-size:20px;
 
 }
+
 
 a{
    color:white;
@@ -43,11 +44,12 @@ a:hover{
    text-decoration:underline;
 }
 
+
 #showcase{
   /*  border:2px white solid; */
     margin-left:10%;
     margin-right:10%;
-    color:white;
+    color:#fff;
     padding: 70px 0;
     font-size:30px;
 
@@ -102,10 +104,54 @@ a:hover{
 
 }
 
+
 .container-icon{
    /* border:2px white dotted;*/
     height:100px;
+
 }
+
+.icon-home{
+    background-image:url('../images/home_small.png');
+    background-repeat:no-repeat;
+    height:55px;
+    width:55px;
+    float:left;
+
+}
+
+
+.icon-photos{
+    background-image:url('../images/photos_small.png');
+    background-repeat:no-repeat;
+    height:55px;
+    width:55px;
+    float:left;
+
+}
+
+
+
+.icon-git{
+    background-image:url('../images/github_small.png');
+    background-repeat:no-repeat;
+    height:55px;
+    width:55px;
+    float:left;
+    margin-top:-0.5%;
+    margin-left: -1.5%;
+}
+
+
+.icon-li{
+    background-image:url('../images/linkedin_small.png');
+    background-repeat:no-repeat;
+    height:55px;
+    width:55px;
+    float:left;
+
+}
+
 
 .icon-1{
     float:right;
