@@ -15,6 +15,9 @@ def home():
 def sida2():
     return render_template('sida2.html')
 
+@app.route('/schema')
+def schema():
+    return render_template('/schema.html')
 
 #if __name__ == "__main__":
 #    app.run(debug=True)
@@ -22,3 +25,4 @@ def sida2():
 
 if __name__ == "__main__":
     app.run()
+
